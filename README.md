@@ -18,8 +18,8 @@ The **Notes-Taker** app is a simple, user-friendly application built with React 
 To get the application up and running on your local machine, follow these steps:
 
 ### 1. **Clone the Repository**
-        git clone [https://github.com/your-username/notes-taker-app.git](https://github.com/iam-harshit/NoteTaker.git)
-        cd notes-taker-app
+        git clone https://github.com/iam-harshit/NoteTaker.git
+        cd NoteTaker
 ### 2. **Install Dependencies**
         yarn install
 ### 3. **Setup Auth0**
