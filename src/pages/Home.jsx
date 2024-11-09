@@ -1,4 +1,3 @@
-// Home.jsx
 import React, { useEffect } from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
 import { Link, useNavigate } from 'react-router-dom';
@@ -42,14 +41,6 @@ const Home = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      {/* <button
-        className="absolute right-4 top-4 bg-blue-400 text-white px-4 py-2"
-        onClick={() =>
-          logout({ logoutParams: { returnTo: window.location.origin } })
-        }
-      >
-        Log Out
-      </button> */}
       <div>
         <h1 className="text-3xl font-semibold mb-8">Welcome, {user.name}!</h1>
       </div>
